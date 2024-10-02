@@ -21,6 +21,9 @@ const getUserMenuItems = ({
         href: `${studioBaseUrl}`,
         title: intl.formatMessage(messages['header.user.menu.studio']),
       }, {
+        href: `${studioBaseUrl}/extras/get_moodle_login_url`,
+        title: intl.formatMessage(messages['header.user.menu.moodle']),
+      }, {
         href: `${studioBaseUrl}/maintenance`,
         title: intl.formatMessage(messages['header.user.menu.maintenance']),
       }, {
