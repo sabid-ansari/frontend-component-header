@@ -106,6 +106,11 @@ const messages = defineMessages({
     defaultMessage: 'Studio Home',
     description: 'Link to Studio Home',
   },
+  'header.user.menu.moodle': {
+    id: 'header.user.menu.moodle',
+    defaultMessage: 'Moodle',
+    description: 'Link to the Moodle page',
+  },
   'header.user.menu.maintenance': {
     id: 'header.user.menu.maintenance',
     defaultMessage: 'Maintenance',
